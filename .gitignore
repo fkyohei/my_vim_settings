@@ -1,2 +1,4 @@
 dein/repos/*
 dein/.cache/*
+.DS_Store
+.netrwhist
