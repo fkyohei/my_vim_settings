@@ -24,6 +24,10 @@ if dein#check_install()
   call dein#install()
 endif
 
+"if dein#check_update()
+"  call dein#update()
+"endif
+
 " ファイルタイプ設定上書き
 filetype plugin indent on
 " シンタックス設定上書き
