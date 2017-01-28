@@ -23,3 +23,8 @@ call dein#end()
 if dein#check_install()
   call dein#install()
 endif
+
+" ファイルタイプ設定上書き
+filetype plugin indent on
+" シンタックス設定上書き
+syntax enable

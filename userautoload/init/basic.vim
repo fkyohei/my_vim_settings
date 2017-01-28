@@ -9,8 +9,6 @@ set ruler
 set showmatch
 "現在の行を強調表示
 set cursorline
-"シンタックスハイライト
-syntax on
 "常にステータスラインを表示
 set laststatus=2
 
@@ -37,3 +35,7 @@ set encoding=utf-8
 set history=500
 "クリップボード貼り付け
 set paste
+"ファイルタイプ自動認識
+filetype plugin indent on
+"シンタックスハイライト
+syntax on 
