@@ -1,4 +1,6 @@
-### vimrc
+# deinを使用したvim設定
+
+## vimrc
 
 ```sh
 runtime! userautoload/init/*.vim
@@ -6,7 +8,7 @@ runtime! userautoload/init/*.vim
 runtime! userautoload/dein/*.vim
 ```
 
-### neocomplete
+## neocomplete
 
 ```sh
 vim --version
